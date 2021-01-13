@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+
+    @media screen and (max-width: 1800px) {
+        font-size: 60%;
+    }
+    @media screen and (max-width: 1600px) {
+        font-size: 58%;
+    }
+    @media screen and (max-width: 1400px) {
+        font-size: 56%;
+    }
+    @media screen and (max-width: 1200px) {
+        font-size: 54%;
+    }
+    @media screen and (max-width: 1000px) {
+        font-size: 51%;
+    }
+    @media screen and (max-width: 800px) {
+        font-size: 49%;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 47%;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 45%;
+    }
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'sans-serif';
+}
